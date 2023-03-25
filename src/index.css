@@ -21,9 +21,9 @@
   /* ------------------------- */
 
   --bg: rgb(10, 10, 10);
-  --button: rgb(26, 26, 26);
+  --button: rgb(32, 32, 32);
   --text: rgb(255, 255, 255);
-  --textLight: rgba(255, 255, 255, 0.75);
+  --textLight: rgba(255, 255, 255, 0.5);
 }
 
 * {
@@ -66,7 +66,7 @@ body {
   background: linear-gradient(0, var(--ciBlue), var(--prime), var(--ciGreen));
   background-size: 100% 200%;
   background-position: 0% 00%;
-  animation: move 4s infinite alternate linear;
+  animation: move 2.5s infinite alternate linear;
   opacity: 0.3;
 }
 
